@@ -1,0 +1,22 @@
+
+1. The expected value of a discrete random variable is the probability-weighted average of all possible values.
+
+2. Each possible value the random variable can assume is multiplied by its probability of occurring, and the resulting products are summed to produce the expected value.
+
+3. For continuous variable summation is replaced by integration and probability by probability density
+
+4. The variance is a measure of dispersion of the possible values of the random variable around the expected value. The variance itself is defined in terms of two expectations: it is the expected value of the squared deviation of the variable's value from the variable's expected value.
+
+5. E(X) = sum(Pi*Xi)
+   When Pi is equal fo every values then simple average becomes the expected value
+
+6. If an event is represented by a function of a random variable (g(x)) then that function is substituted into the EV for
+   a continuous random variable formula to get:
+   E[g(X)] = Sum(g(X)*P(X))
+   P(X) is the Probability density function.
+
+7. Examples from here: 
+	http://www.statisticshowto.com/probability-and-statistics/expected-value/
+
+8. tutorial hackerrank.com
+	https://www.hackerrank.com/topics/expectation-values

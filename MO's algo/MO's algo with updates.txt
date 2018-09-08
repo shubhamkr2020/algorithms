@@ -1,0 +1,10 @@
+
+sort the queries (MO's sort)
+
+Make seperate vector for updates,
+track the count of updates as time and modify the queries
+as {l,r,time(no of updates)},
+sort these queries as Mo sort and do
+
+Update and undo update method
+as explained by gaurav sen.

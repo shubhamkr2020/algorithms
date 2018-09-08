@@ -1,0 +1,5 @@
+https://www.hackerearth.com/practice/notes/matrix-exponentiation-1/
+
+https://discuss.codechef.com/questions/2335/building-up-the-recurrence-matrix-to-compute-recurrences-in-ologn-time
+
+http://codeforces.com/blog/entry/8323#comment-140483
