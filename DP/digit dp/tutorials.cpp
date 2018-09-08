@@ -5,4 +5,6 @@
 
 // https://www.hackerrank.com/topics/digit-dp
 
-// 
+// https://codeforces.com/blog/entry/53960
+
+// https://www.geeksforgeeks.org/digit-dp-introduction/
