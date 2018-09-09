@@ -8,3 +8,8 @@
 // https://codeforces.com/blog/entry/53960
 
 // https://www.geeksforgeeks.org/digit-dp-introduction/
+
+// Questions
+
+// 1. https://www.hackerearth.com/problem/algorithm/sum-of-digits-8/description/
+// 2. http://codeforces.com/contest/1036/problem/C
