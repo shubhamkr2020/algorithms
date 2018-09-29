@@ -1,0 +1,8 @@
+GSS1 - range query
+GSS3 - range query & point update
+GSS4 - range query & range update (internal update) (lazy propagation)
+KQUERY - offline segment tree or BIT - number of greater elements from l to r
+FREQUENT - 
+HORRIBLE - Range query and range update (external update) (lazy propagation) 
+BRCKTS - 
+DQUERY - persistent segment tree or MO's algo.
