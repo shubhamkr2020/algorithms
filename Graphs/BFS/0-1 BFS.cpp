@@ -1,5 +1,7 @@
 // http://codeforces.com/blog/entry/22276
 
+// 0-1 bfs is used to find distance in graphs with 0 and 1 as the only edge weights.
+
 // Solution for spoj KATHTHI
 // While using 0-1 BFS just push in front of the deque if weight is zero else push at the back and do a normal bfs..
 // Pushing at the front makes a sorted queue at  every stage. See the blog for complete reference.
