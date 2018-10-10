@@ -10,7 +10,8 @@
 
 // 1. maximum xor of pair of numbers from an array
 // 2. subarray with maximum xor
-// 3. the trie allow us to find words that have 
+// 3. number of subarrays with xor less than k (geeks)
+// 4. the trie allow us to find words that have 
 // 		1. a single character different
 //		2. a prefix in common
 //		3. a character missing, etc.
