@@ -87,7 +87,27 @@ string to_string(T s){
   string res;
   getline(tin,res);
   return(res);
-}  
+}
+
+    // constant time number of bit counting in an integer algo ..................
+unsigned numbits(unsigned i) {
+    const unsigned MASK1  = 0x55555555;
+    const unsigned MASK2  = 0x33333333;
+    const unsigned MASK4  = 0x0f0f0f0f;
+    const unsigned MASK8  = 0x00ff00ff;
+    const unsigned MASK16 = 0x0000ffff;
+    i = (i&MASK1 ) + (i>>1 &MASK1 );
+    i = (i&MASK2 ) + (i>>2 &MASK2 );
+    i = (i&MASK4 ) + (i>>4 &MASK4 );
+    i = (i&MASK8 ) + (i>>8 &MASK8 );
+    i = (i&MASK16) + (i>>16&MASK16);
+    return i;
+
+    // or
+
+    return __builtin_popcount(i);           // library function for number of bits count
+}
+
 
 	// convert into binary form......
 string binary(int n) {
