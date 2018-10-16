@@ -14,14 +14,14 @@ using namespace std;
 ll n,e,s,l,d[N],vis[N];
 vector<pii> g[N];
 
-struct comp {
-    bool operator() (pii l, pii r) {
-        return l.xx < r.xx;
-    }   
-};
+// struct comp {
+//     bool operator() (pii l, pii r) {
+//         return l.xx < r.xx;
+//     }   
+// };
 
 void dijkstra() {
-    set<pii, comp> st;
+    set<pii> st;
     st.insert({0,s});
     // cout<<s<<l<<endl;
     d[s] = 0;

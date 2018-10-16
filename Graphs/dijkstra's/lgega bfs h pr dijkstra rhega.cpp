@@ -1,6 +1,8 @@
 
 // https://codeforces.com/contest/1064/problem/D
 
+// can be solved using 0-1 bfs also because edge weight can only be 0(for top and bottom) or 1(for left and right)
+
 #include<bits/stdc++.h>
 using namespace std;
 
