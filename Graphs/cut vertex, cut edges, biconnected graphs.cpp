@@ -4,6 +4,7 @@
 // 2. otherwise there should be an adjacent vertex (u) such that:
 //      low[u] >= disc[v] 
 // (basically only one condition children should not be connected with any ancestor)
+// (here low time is the lowest time of visiting the nodes in the subtree rooted at u)
 
 // For cut edges (edge between v and u):
 // low[u] > disc[v]  ---  only one condition i.e. children is not connected with any ancestors
@@ -39,9 +40,10 @@ void init(int n) {
     rep(i,0,n+2) {
         g[i].clear();
         vis[i]=0;
+        disc[i] = -1;
         arc[i]=0;
         low[i]=INT_MAX;
-        par[i]=-1;
+        par[i] = -1;
     }
 }
 
