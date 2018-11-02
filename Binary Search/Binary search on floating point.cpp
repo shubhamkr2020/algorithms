@@ -12,7 +12,7 @@ while (hi - lo > 1e-10) {
 // Use this.....
 
 double a = 0.0; //never gonna happend
-double r = 100000000000000000000.0; //never gonna happen
+double b = 100000000000000000000.0; //never gonna happen
 for (int it = 1; it <= 70; it++) { // some coders use 40, others 70, Same varies according to the problem
    double mid = (a + b) / 2.0;
    if (check(mid)) b = mid;
