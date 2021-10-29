@@ -54,7 +54,8 @@ inline ll scan_int() {
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 int a[10001];
-int dp[101][101];
+int dp[101][101];              // dp[i][j] = answer for mcm from i to j
+
 int solve(int i, int j) {
     int &r = dp[i][j];
     if(r != -1) return r;

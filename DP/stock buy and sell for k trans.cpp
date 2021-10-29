@@ -1,6 +1,18 @@
 // https://www.interviewbit.com/problems/best-time-to-buy-and-sell-stocks-iii/
 // video tutorial (Tushar Roy) - https://www.youtube.com/watch?v=oDhu5uGq_ic
 
+/*
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/           
+            => find curr min and sell at every pos
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/        
+            => greedy - buy-sell at every peak and valley
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/       
+            => use dp for k=2
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+            => make dp table with iterating twice and then optimize keeping maxDiff from 0 to j.
+
+*/
 // for infinite transactions use greedy.......
 
 int Solution::maxProfit(const vector<int> &a) {

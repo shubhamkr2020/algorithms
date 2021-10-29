@@ -11,7 +11,7 @@
 
 
 // Solution :
-// 1. Find the number of ways of meeting at i,j (here they can meet in two ways only for details see hackerearth link)
+// 1. Find the number of ways of meeting at i,j (here they can meet in two ways only (for details see hackerearth link)
 // 2. create 4 tables 
 // 		1. cost for boy from 1,1 to i,j
 // 		2. cost for boy from n,m to i,j
