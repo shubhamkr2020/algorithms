@@ -54,53 +54,45 @@ inline ll scan_int() {
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-int par[220000], h[220000];
-vi g[220000];
-
-void dfs(int n, int p) {
-    int i;
-    rep(i,0,g[n].size()) {
-        if(g[n][i] != p) {
-            h[g[n][i]] = h[n]+1;
-            par[g[n][i]] = n;
-            dfs(g[n][i], n);
-        }
-    }
-}
 
 int main(){
-    //INOUT;
-
-    int n=fin;
-    int i;
-    rep(i,0,n-1) {
-        int a=fin, b=fin;
-        g[a].pb(b);
-        g[b].pb(a);
-    }
-
-    int a[n];
-    rep(i,0,n) a[i]=fin;
-    h[1] = 0;
-    dfs(1,-1);
-
-    // rep(i,1,n+1) cout<<h[i]<<" "; cout<<endl;
-
-    if(a[0] != 1) {
-        cout<<"NO"<<endl;
-        return 0;
-    }
-
-    int vis[n+1]={0};
-    int hh=1;
-    rep(i,1,n) {
-        if(h[a[i]] < hh) {
-            cout<<"NO"<<endl;
-            return 0;
+    INOUT;
+ 
+    int tt=fin;
+    while(tt--) {
+        
+        int n=fin;
+        int a[n], i;
+        rep(i,0,n) a[i]=fin;
+ 
+        int b[n];
+        if(n%2 == 0) {
+            rep(i,0,n-1) {
+                b[i] = a[i+1];
+                b[i+1] = -a[i];
+                i++;
+            }
         }
-        hh = max(h[a[i]], hh);
-    }
-    cout<<"YES"<<endl;
+        else {
+            rep(i,0,n-4) {
+                b[i] = a[i+1];
+                b[i+1] = -a[i];
+                i++;
+            }
+            b[n-3] = a[n-1];
+            b[n-2] = a[n-1];
+            b[n-1] = -(a[n-3] + a[n-2]);
 
+            if(b[n-1] == 0) {
+                b[n-3] = 2*a[n-1];
+                b[n-2] = a[n-1];
+                b[n-1] = -(2*a[n-3]+a[n-2]);
+            }
+        }
+        rep(i,0,n) cout<<b[i]<<" ";
+        cout<<endl;
+ 
+    }
+ 
     return 0;
 }
