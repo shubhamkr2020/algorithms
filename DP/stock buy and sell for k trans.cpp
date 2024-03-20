@@ -6,7 +6,7 @@
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/           
             => find curr min and sell at every pos
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/        
-            => greedy - buy-sell at every peak and valley
+            => greedy - buy everyday but sell only if the next day price is high otherwise assume it already sold the previous day.
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/       
             => use dp for k=2
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
