@@ -36,4 +36,5 @@ int Solution::maxProfit(const vector<int> &a) {
 
 
 // simple solution by for loops and dp..............
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/solutions/4894465/without-dp-beginner-friendly-solution-easy-and-detailed-video-explanation-in-hindi/
 // https://www.youtube.com/watch?v=y-C6WXuLgws
