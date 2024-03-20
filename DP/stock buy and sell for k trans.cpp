@@ -33,3 +33,7 @@ int Solution::maxProfit(const vector<int> &a) {
     }
     return dp[2][n-1];
 }
+
+
+// simple solution by for loops and dp..............
+// https://www.youtube.com/watch?v=y-C6WXuLgws
