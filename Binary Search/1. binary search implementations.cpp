@@ -27,8 +27,8 @@ So, to find first number which is greater than target use the opposite.
 
 while(r-l>1) {
   int m = (l+r)/2;
-  if(v[m] < target) l=m;
-  else r=m;
+  if(v[m] > target) r=m;
+  else l=m;
 }
 
 /*
