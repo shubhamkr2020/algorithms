@@ -15,7 +15,11 @@ int BinarySearch(vector<int>& v, int target) {
 }
 
 /*
-Here, finall values for l and r:
+Here, 
+
+Always start with l and r which is not possible i.e. l=-1 and r=n;
+
+finally,
 l will give you the first number which is less than the target.
 r will give you the first number which is grater than equal to target.
 i.e. 
