@@ -24,3 +24,18 @@ v[r] >= target
 
 So, to find first number which is greater than target use the opposite.
 */
+
+while(r-l>1) {
+  int m = (l+r)/2;
+  if(v[m] < target) l=m;
+  else r=m;
+}
+
+/*
+here, 
+r will give you the first element which is greater than the target and 
+l will give you the first element which is less than equal to target.
+i.e. 
+v[l] <= target
+v[r] > target
+*/
