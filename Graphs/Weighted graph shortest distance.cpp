@@ -1,6 +1,11 @@
 /*
   Weighted graph shortest distance
   
+  Single source to single destination:
+  
+  Dijkstras Algo: check above folder.
+  
+  
   Single source to all nodes:
   
   Bellman ford: https://www.geeksforgeeks.org/?p=27914
