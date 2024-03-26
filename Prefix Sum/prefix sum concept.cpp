@@ -1,5 +1,6 @@
 // http://codeforces.com/contest/1029/problem/C
 // prefix function can be applied to any associative function like min, max, product, etc...
+// prefix xor is imp.
 
 #include<bits/stdc++.h>
 using namespace std;
