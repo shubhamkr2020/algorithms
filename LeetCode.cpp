@@ -5,6 +5,7 @@ Questions with concepts (must do quesitons)
 2. www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/practice-problems/algorithm/permutation-swaps - union find
 3. https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii - stocks buy and sell
 4. https://leetcode.com/problems/strobogrammatic-number-ii/?envType=list&envId=pfyhj5d6 - recursion
+5. https://leetcode.com/problems/next-permutation/description/ - very imp.
 
 
 */
