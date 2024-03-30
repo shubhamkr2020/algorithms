@@ -8,6 +8,7 @@ Questions with concepts (must do quesitons)
 5. https://leetcode.com/problems/next-permutation/description/ - very imp.
       https://leetcode.com/problems/next-permutation/solutions/3169948/best-c-2-solution-two-pointers-optimized-solution/
 6. https://leetcode.com/problems/robot-room-cleaner/description/ - robot cleaning backtracking. ...IMP...
+7. https://leetcode.com/problems/random-pick-with-weight/description/ - probability and rand() ...IMP...
 
 
 */
