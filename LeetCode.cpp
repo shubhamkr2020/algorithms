@@ -13,10 +13,12 @@ Questions with concepts (must do quesitons)
 9. https://leetcode.com/problems/shuffle-an-array/description/ - rand()
 10. https://leetcode.com/problems/max-stack/solutions/490946/c-two-solutions-clean-code/ - doubly linked list and map comparator in cpp ...VVIMP...
       LRU Cache - https://leetcode.com/problems/lru-cache/solutions/4953513/using-stl-list-and-unordered-map-in-cpp/ - doubly linkedlist ...VVIMP...
+      https://leetcode.com/problems/all-oone-data-structure/solutions/2697460/short-and-clean-easy-to-understand-solution/  ...VVIMP....
 11. https://leetcode.com/problems/search-in-rotated-sorted-array - binary search
 
 no brainer: (must mugg these questions)
 1. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ - dp with bitmasking
+2. https://leetcode.com/problems/find-the-celebrity/editorial/ - 
 
 
 */
