@@ -11,5 +11,9 @@ Process to solve these problems:
 1. Do a bruteforce approach first - NP hard problem.
 2. find the subset mask and use dp to memoize the answers.
 
+OR
+
+Kuch nhi smjh aa rha to dp with bitmask hi hoga... 💁‍♂️
+
 
 */
