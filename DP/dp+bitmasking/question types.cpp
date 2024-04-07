@@ -2,7 +2,7 @@
 
 1. Find max subset sum less than k
 2. Find minimum cost for n jobs and n person with given cost matrix
-3. Find k equal sum subsets
+3. Find k equal sum subsets - https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/
 4. Travelling salesman problem
 
 
