@@ -15,4 +15,8 @@ Questions with concepts (must do quesitons)
       LRU Cache - https://leetcode.com/problems/lru-cache/solutions/4953513/using-stl-list-and-unordered-map-in-cpp/ - doubly linkedlist ...VVIMP...
 11. https://leetcode.com/problems/search-in-rotated-sorted-array - binary search
 
+no brainer: (must mugg these questions)
+1. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ - dp with bitmasking
+
+
 */
