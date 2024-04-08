@@ -15,6 +15,11 @@ Questions with concepts (must do quesitons)
       LRU Cache - https://leetcode.com/problems/lru-cache/solutions/4953513/using-stl-list-and-unordered-map-in-cpp/ - doubly linkedlist ...VVIMP...
       https://leetcode.com/problems/all-oone-data-structure/solutions/2697460/short-and-clean-easy-to-understand-solution/  ...VVIMP....
 11. https://leetcode.com/problems/search-in-rotated-sorted-array - binary search
+12. https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/ - use priority_queue with k elements max;
+13. https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/ -
+     - divide both of them into negatives and positives i.e. 4 array then use the priority_queue concept in the pair of arrays.
+     - to only find the kth smallest, use binary search from -INF to INF.
+
 
 no brainer: (must mugg these questions)
 1. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ - dp with bitmasking
