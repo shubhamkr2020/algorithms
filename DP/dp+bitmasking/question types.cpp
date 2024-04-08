@@ -1,6 +1,6 @@
 /*
 
-1. Find max subset sum less than k
+1. Find max subset sum less than k - this can be done by meet in the middle as well.
 2. Find minimum cost for n jobs and n person with given cost matrix
 3. Find k equal sum subsets - https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/ - backtracking with bitmask and explore all subsets.
 4. Travelling salesman problem
