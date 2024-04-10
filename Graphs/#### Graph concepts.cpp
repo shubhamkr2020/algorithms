@@ -14,7 +14,7 @@ Undirected Graphs:
 
 For Both:
 
-1. You can also traverse the edges only if needed for a few algorithms like floyd-warshall and krushkal's
+1. You can also traverse the edges only if needed for a few algorithms like bellman ford and krushkal's
 2. Use coloring of the node while traversal if needed, colors can be white (not visited yet), grey (in process) or black (completely explored)
 3. DSU can also be used sometimes. like detecting the cycles in krushkal's
 4. 
