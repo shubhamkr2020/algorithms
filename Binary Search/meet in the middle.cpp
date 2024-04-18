@@ -6,3 +6,5 @@
 
 // Given a set of n integers where n <= 40. Each of them is at most 1012, 
 // determine the maximum sum subset having sum less than or equal S where S <= 1018.
+
+// divide krke binary search krke merge kro.
