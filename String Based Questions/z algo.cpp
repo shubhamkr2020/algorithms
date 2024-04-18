@@ -7,6 +7,7 @@ using namespace std;
 #define ll long long
 #define N 100005
 
+// An element Z[i] of Z array stores length of the longest substring starting from str[i] which is also a prefix of str[0..n-1].
 vector<int> z_function(string s) {
     int n = (int) s.length();
     vector<int> z(n);
