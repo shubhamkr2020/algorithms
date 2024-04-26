@@ -6,6 +6,7 @@
 4. Travelling salesman problem
 5. number of ways to fill n*m grd with 1*2 brick horizontally or vertically
   dp(i,mask) = till ith column is filled and (i+1)th column is represented by the mask.
+6. https://leetcode.com/problems/optimal-account-balancing/ - .....IMP..... for stripe.
 
 
 Process to solve these problems:
