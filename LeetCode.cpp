@@ -24,7 +24,7 @@ Questions with concepts (must do quesitons)
 no brainer: (must mugg these questions)
 1. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ - dp with bitmasking
 2. https://leetcode.com/problems/find-the-celebrity/editorial/ - 
-3. https://leetcode.com/problems/optimal-account-balancing/editorial/ - must muggg for payment companies.
+3. https://leetcode.com/problems/optimal-account-balancing/editorial/ - backtracking - must muggg for payment companies.
 
 
 */
