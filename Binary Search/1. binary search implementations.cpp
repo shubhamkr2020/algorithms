@@ -34,6 +34,7 @@ while(r-l>1) {
   if(v[m] > target) r=m;
   else l=m;
 }
+return l;
 
 /*
 here, 
