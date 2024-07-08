@@ -1,7 +1,25 @@
 // https://codeforces.com/blog/entry/9901
 // https://codeforces.com/blog/entry/9901?#comment-153756
+// https://www.geeksforgeeks.org/binary-search/
+
+// Simple binary search
+int binary_search(vector<int> &v, int target) {
+  int n = v.size();
+  int l=0, r=n-1;
+  while(l<=r) {
+    int m = (v[l] + v[r])/2;
+    if(v[m] == target)
+      return m;
+    if(v[m] < target)
+      r = m-1;
+    else
+      l = m+1;
+  }
+  return -1;
+}
 
 
+// mast wala, use this to find lower_bound and upper_bound as well.
 int BinarySearch(vector<int>& v, int target) {
   int n = v.size();
   int l=-1,r=n;
