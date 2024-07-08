@@ -11,9 +11,9 @@ int binary_search(vector<int> &v, int target) {
     if(v[m] == target)
       return m;
     if(v[m] < target)
-      r = m-1;
-    else
       l = m+1;
+    else
+      r = m-1;
   }
   return -1;
 }
